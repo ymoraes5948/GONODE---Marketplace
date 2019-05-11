@@ -1,4 +1,4 @@
 module.exports = {
-  host: '68.183.118.13',
-  port: 6379
+  host: process.env.REDIS_HOST,
+  port: process.env.REDIS_PORT
 }
